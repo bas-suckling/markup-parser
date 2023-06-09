@@ -17,7 +17,7 @@ If a paragraph is correctly tagged, the program will output the line:
 
 If a paragraph is incorrectly tagged the program with output a line in the form:
 
-`Expected &lt;expected&gt; found &lt;found&gt;`
+`Expected <expected> found <found>`
 
 ## Project Setup
 
