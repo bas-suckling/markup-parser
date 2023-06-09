@@ -26,7 +26,7 @@ Follow the steps below to set up and run the project:
 1. Download the code using the following command:
 
    ```javascript
-    git clone <repository-url>
+    git clone https://github.com/bas-suckling/markup-parser.git
    ```
 
 2. Install the dependencies using the following command:
