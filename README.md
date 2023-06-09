@@ -13,11 +13,11 @@ This program can be used to check that all the tags in a given paragraph of text
 
 If a paragraph is correctly tagged, the program will output the line:
 
-Correctly tagged paragraph
+`Correctly tagged paragraph`
 
 If a paragraph is incorrectly tagged the program with output a line in the form:
 
-Expected &lt;expected&gt; found &lt;found&gt;
+`Expected &lt;expected&gt; found &lt;found&gt;`
 
 ## Project Setup
 
