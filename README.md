@@ -32,25 +32,25 @@ Follow the steps below to set up and run the project:
 2. Install the dependencies using the following command:
 
    ```javascript
-    yarn install
+    npm install
    ```
 
 3. Run the code using the following command:
 
    ```javascript
-       yarn run dev
+    npm run dev
    ```
 
 4. Run the tests using the following command:
 
    ```javascript
-       yarn test
+    npm test
    ```
 
 5. To run the debugger in VSCode, first open a JavaScript Debug Terminal, and then run the following command:
 
    ```javascript
-         yarn run dev:debug
+    npm run dev:debug
    ```
 
 ## The dangers of parsing more complex markup languages with regex
