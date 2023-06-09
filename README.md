@@ -6,6 +6,7 @@ This parser can be used to evaluate if a paragraph of text written in basic mark
 
 - An opening tag is represented by enclosed angle brackets and contains exactly one uppercase letter, e.g., `<B>`, `<A>`, `<S>`.
 - A corresponding closing tag will be the same letter preceded by the symbol `/`, e.g., `</B>`, `</A>`, `</S>`.
+- Tags can be nested, but cannot be closed out of order. A closing tag must correspond to the most recently opened tag. 
 
 ## Functionality
 
