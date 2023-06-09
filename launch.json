@@ -8,7 +8,7 @@
       "protocol": "inspector",
       "port": 4321,
       "restart": true,
-      "cwd": "${workspaceRoot}"
+      "cwd": "${workspaceRoot}/src/index.ts"
     }
   ]
 }
