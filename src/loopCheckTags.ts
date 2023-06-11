@@ -1,3 +1,5 @@
+import { extractTags } from './utils/extractTags';
+
 export const checkTags = (paragraph: string) => {
   const tags = extractTags(paragraph);
   const stack: string[] = [];
@@ -23,9 +25,4 @@ export const checkTags = (paragraph: string) => {
   }
 
   return 'Correctly tagged paragraph';
-};
-
-export const extractTags = (paragraph: string) => {
-  const regex = /<(\/?[A-Z])>/g;
-  return Array.from(paragraph.matchAll(regex), (match) => match[1]);
 };
