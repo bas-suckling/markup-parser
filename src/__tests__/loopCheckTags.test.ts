@@ -1,4 +1,4 @@
-import { checkTags } from '../reducerCheckTags';
+import { checkTags } from '../loopCheckTags';
 
 describe('check tags', () => {
   test('empty paragraph', async () => {

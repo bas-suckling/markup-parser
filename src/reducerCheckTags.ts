@@ -1,3 +1,5 @@
+import { extractTags } from './utils/extractTags';
+
 export const checkTags = (paragraph: string) => {
   const tags = extractTags(paragraph);
 
@@ -30,10 +32,4 @@ export const checkTags = (paragraph: string) => {
     }
     throw error;
   }
-};
-
-// public for testing
-export const extractTags = (paragraph: string) => {
-  const regex = /<(\/?[A-Z])>/g;
-  return Array.from(paragraph.matchAll(regex), (match) => match[1]);
 };
